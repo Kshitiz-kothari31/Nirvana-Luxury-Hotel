@@ -1,0 +1,123 @@
+.footer {
+    background-color: #111;
+    color: #fff;
+    padding-top: 80px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    padding-bottom: 60px;
+}
+
+.footer-logo a {
+    font-family: var(--heading-font);
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.footer-logo span {
+    color: var(--primary-color);
+}
+
+.footer-col p {
+    color: #aaa;
+    margin-bottom: 20px;
+    line-height: 1.8;
+    font-size: 0.95rem;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-links a {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: var(--primary-color);
+    transform: translateY(-3px);
+}
+
+.footer-col h4 {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+    color: #fff;
+    font-family: var(--body-font);
+    font-weight: 600;
+}
+
+.footer-col ul li {
+    margin-bottom: 12px;
+}
+
+.footer-col ul li a {
+    color: #aaa;
+    transition: color 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: var(--primary-color);
+    padding-left: 5px;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.newsletter-form input {
+    padding: 12px 15px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color: #222;
+    color: #fff;
+    outline: none;
+}
+
+.newsletter-form input:focus {
+    border-color: var(--primary-color);
+}
+
+.newsletter-form button {
+    padding: 12px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.newsletter-form button:hover {
+    background-color: #fff;
+    color: var(--secondary-color);
+}
+
+.footer-bottom {
+    border-top: 1px solid #222;
+    padding: 25px 0;
+    background-color: #0a0a0a;
+    text-align: center;
+}
+
+.footer-bottom p {
+    margin: 0;
+    color: #666;
+    font-size: 0.9rem;
+}

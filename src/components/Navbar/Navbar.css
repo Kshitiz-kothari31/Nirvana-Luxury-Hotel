@@ -1,0 +1,128 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: all 0.4s ease;
+    background-color: transparent;
+    padding: 20px 0;
+}
+
+.navbar.scrolled {
+    background-color: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    padding: 10px 0;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    font-family: var(--heading-font);
+    font-size: 1.8rem;
+    color: #000;
+    transition: color 0.3s ease;
+}
+
+.logo span {
+    color: var(--primary-color);
+}
+
+.navbar.scrolled .logo a {
+    color: var(--secondary-color);
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav-links li a {
+    color: #000000;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    position: relative;
+}
+
+.nav-links li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: var(--primary-color);
+    transition: width 0.3s ease;
+}
+
+.nav-links li a:hover::after {
+    width: 100%;
+}
+
+.navbar.scrolled .nav-links li a {
+    color: var(--secondary-color);
+}
+
+.btn-nav {
+    background: var(--primary-color);
+    padding: 10px 25px;
+    border-radius: 50px;
+    color: #fff !important;
+}
+
+.btn-nav:hover {
+    background: #7d3e00;
+    color: #fff !important;
+}
+
+.navbar.scrolled .btn-nav:hover {
+    background: var(--secondary-color);
+    color: #fff !important;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    color: #000;
+}
+
+.navbar.scrolled .menu-icon {
+    color: var(--secondary-color);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .nav-links {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        flex-direction: column;
+        padding: 30px 0;
+        transform: translateY(-200%);
+        transition: transform 0.4s ease;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-links.active {
+        transform: translateY(0);
+    }
+
+    .nav-links li a {
+        color: var(--secondary-color);
+    }
+
+    .navbar.scrolled .nav-links li a {
+        color: var(--secondary-color);
+    }
+}
