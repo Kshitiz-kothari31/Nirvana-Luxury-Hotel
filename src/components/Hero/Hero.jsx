@@ -68,7 +68,7 @@ const Hero = () => {
                             </div>
                         </div>
 
-                        <a href="https://wa.me/9808028085?text=Hello!%20I%20am%20interested%20in%20booking%20a%20room." target="_blank" className="btn-search">
+                        <a href="https://wa.me/919808028085?text=Hello!%20I%20am%20interested%20in%20booking%20a%20room." target="_blank" className="btn-search">
                             Book now
                         </a>
                     </motion.div>

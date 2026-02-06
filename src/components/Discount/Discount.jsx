@@ -33,7 +33,7 @@ const Discount = () => {
                         </motion.p>
 
                         <motion.a
-                            href="https://wa.me/9808028085?text=Hello!%20I%20am%20interested%20in%20booking%20a%20room."
+                            href="https://wa.me/919808028085?text=Hello!%20I%20am%20interested%20in%20booking%20a%20room."
                             target="_blank"
                             className="btn btn-discount"
                             initial={{ opacity: 0, y: 20 }}
