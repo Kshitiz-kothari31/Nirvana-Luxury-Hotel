@@ -221,7 +221,7 @@
 /* Responsive adjustments for 4 images */
 @media (max-width: 992px) {
     .img-1 {
-        left: 0;
+        left: 0%;
         width: 45%;
         height: 50%;
     }
@@ -317,25 +317,33 @@
     }
 
     .img-1 {
-        left: 0;
+        left: 2%;
     }
 
     .img-2 {
-        right: 0;
+        right: 2%;
     }
 
     .img-3 {
-        left: 50%;
+        left: 25%;
         transform: translateX(-50%);
-        bottom: -20px;
+        top: 50%;
+    }
+
+    .img-4 {
+        top: 45%;
+        right: 2%;
     }
 
     .badge-destinations {
         left: 0;
+        height: 20%;
+        top: 20%;
     }
 
     .badge-verified {
         right: 0;
         top: 0;
+        height: 18%;
     }
 }

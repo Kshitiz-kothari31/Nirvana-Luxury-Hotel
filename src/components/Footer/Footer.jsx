@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="container footer-container">
                 <div className="footer-col">
                     <div className="logo footer-logo">
-                        <a href="#">Luxury<span>Hotel</span></a>
+                        <a href="#">Nirvana <span>Hotel</span></a>
                     </div>
                     <p>
                         Experience the art of hospitality. We are dedicated to providing
@@ -43,18 +43,18 @@ const Footer = () => {
                 </div>
 
                 <div className="footer-col">
-                    <h4>Newsletter</h4>
+                    <h4>Mail us for more info!</h4>
                     <p>Subscribe to our newsletter for latest updates and offers.</p>
                     <form className="newsletter-form" onSubmit={(e) => e.preventDefault()}>
                         <input type="email" placeholder="Email Address" />
-                        <button type="submit">Subscribe</button>
+                        <button type="submit">Mail</button>
                     </form>
                 </div>
             </div>
 
             <div className="footer-bottom">
                 <div className="container">
-                    <p>&copy; {new Date().getFullYear()} Luxury Hotel. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} Nirvana Hotel. All rights reserved.</p>
                 </div>
             </div>
         </footer>

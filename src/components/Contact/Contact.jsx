@@ -22,7 +22,7 @@ const Contact = () => {
                             <div className="icon-box"><MapPin size={24} /></div>
                             <div>
                                 <h4>Location</h4>
-                                <p>123 Luxury Avenue, Paradise City</p>
+                                <p>Gopal Guest House, Rishikesh City</p>
                             </div>
                         </div>
 
@@ -37,8 +37,8 @@ const Contact = () => {
                         <div className="contact-item">
                             <div className="icon-box"><Phone size={24} /></div>
                             <div>
-                                <h4>Phone</h4>
-                                <p>+1 234 567 8900</p>
+                                <h4>Contact us</h4>
+                                <p>+19 9808028085</p>
                             </div>
                         </div>
                     </div>
