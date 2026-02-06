@@ -116,4 +116,26 @@
     .room-card {
         max-width: 100%;
     }
+
+    .room-image {
+        height: 180px;
+    }
+
+    .room-details {
+        padding: 15px;
+    }
+
+    .room-meta {
+        font-size: 0.8rem;
+        gap: 8px;
+    }
+
+    .room-meta svg {
+        width: 12px;
+        height: 12px;
+    }
+
+    .room-details h3 {
+        font-size: 1.35rem;
+    }
 }
