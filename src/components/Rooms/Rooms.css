@@ -106,3 +106,14 @@
     gap: 10px;
     color: var(--secondary-color);
 }
+
+@media (max-width: 768px) {
+    .rooms-grid {
+        grid-template-columns: 1fr;
+        padding: 0 10px;
+    }
+
+    .room-card {
+        max-width: 100%;
+    }
+}
