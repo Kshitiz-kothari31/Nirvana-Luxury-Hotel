@@ -19,14 +19,14 @@ const Gallery = () => {
         <section className="section gallery" id="gallery">
             <div className="container">
                 <div className="section-header text-center">
-                    <motion.span
+                    {/* <motion.span
                         className="section-subtitle"
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                     >
                         PHOTOS
-                    </motion.span>
+                    </motion.span> */}
                     <motion.h2
                         className="section-title"
                         initial={{ opacity: 0, y: 20 }}

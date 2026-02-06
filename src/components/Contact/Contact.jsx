@@ -13,7 +13,7 @@ const Contact = () => {
                     viewport={{ once: true }}
                     transition={{ duration: 0.6 }}
                 >
-                    <span className="section-subtitle">CONTACT US</span>
+                    {/* <span className="section-subtitle">CONTACT US</span> */}
                     <h2 className="section-title">Get in Touch</h2>
                     <p>Ready to experience the best? Book your stay today or contact us for any inquiries.</p>
 

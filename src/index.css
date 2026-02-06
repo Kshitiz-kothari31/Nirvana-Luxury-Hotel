@@ -1,10 +1,16 @@
 :root {
   --primary-color: #cda274;
   /* Luxury Gold */
+  --primary-dark: #b08b5e;
+  /* Darker Gold for hover */
+  --primary-light: #f4e9da;
+  /* Light Gold tint */
   --secondary-color: #292f36;
   /* Dark Slate */
   --background-color: #ffffff;
   --text-color: #4d5053;
+  --text-light: #ffffff;
+  /* Text on dark bg */
   --heading-font: 'DM Serif Display', serif;
   --body-font: 'Jost', sans-serif;
 

@@ -76,7 +76,7 @@
 }
 
 .btn-nav:hover {
-    background: #7d3e00;
+    background: var(--primary-dark);
     color: #fff !important;
 }
 

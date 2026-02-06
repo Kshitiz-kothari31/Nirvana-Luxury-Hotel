@@ -3,8 +3,8 @@
 }
 
 .discount-banner {
-    background-color: #fff5ee;
-    /* Seashell / Light Peach */
+    background-color: var(--primary-light);
+    /* Light Gold tint */
     border-radius: 50px;
     padding: 80px 40px;
     text-align: center;
@@ -34,21 +34,21 @@
 }
 
 .btn-discount {
-    background-color: #ff7b29;
-    /* Orange */
+    background-color: var(--primary-color);
+    /* Luxury Gold */
     padding: 16px 40px;
     border-radius: 12px;
     font-size: 1rem;
-    box-shadow: 0 10px 20px rgba(255, 123, 41, 0.2);
+    box-shadow: 0 10px 20px rgba(205, 162, 116, 0.2);
     border: none;
     color: #fff;
     cursor: pointer;
 }
 
 .btn-discount:hover {
-    background-color: #e0600d;
+    background-color: var(--primary-dark);
     transform: translateY(-2px);
-    box-shadow: 0 15px 30px rgba(255, 123, 41, 0.3);
+    box-shadow: 0 15px 30px rgba(205, 162, 116, 0.3);
 }
 
 @media (max-width: 768px) {

@@ -35,7 +35,7 @@
 }
 
 .subtitle-icon {
-    color: #ff7b29;
+    color: var(--primary-color);
 }
 
 .hero h1 {
@@ -78,7 +78,7 @@
 .icon-wrapper {
     width: 40px;
     height: 40px;
-    background: #fff5ee;
+    background: var(--primary-light);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -113,7 +113,7 @@
 }
 
 .btn-search {
-    background: #ff7b29;
+    background: var(--primary-color);
     color: #fff;
     border: none;
     padding: 15px 30px;
@@ -126,9 +126,9 @@
 }
 
 .btn-search:hover {
-    background: #e0600d;
+    background: var(--primary-dark);
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(255, 123, 41, 0.3);
+    box-shadow: 0 5px 15px rgba(205, 162, 116, 0.3);
 }
 
 /* Right Content - Image Collage */
@@ -285,7 +285,7 @@
 @media (max-width: 992px) {
     .hero {
         height: auto;
-        padding: 120px 0 80px;
+        padding: 70px 0 80px;
     }
 
     .hero-container {
@@ -313,7 +313,7 @@
     .hero-images {
         height: 500px;
         max-width: 600px;
-        margin: 0 auto;
+        margin: -50px auto;
     }
 
     .img-1 {
