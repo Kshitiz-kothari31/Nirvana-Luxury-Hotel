@@ -178,22 +178,24 @@
     }
 
     .item-1 {
-        width: 50%;
+        width: 60%;
         height: 80%;
         left: 5%;
         top: 10%;
+        z-index: 10;
     }
 
     .item-2 {
-        width: 70%;
+        width: 60%;
         height: 50%;
         right: 2%;
+        z-index: 20;
     }
 
     .item-3 {
-        width: 50%;
-        height: 50%;
-        right: 10%;
+        width: 45%;
+        height: 45%;
+        right: 5%;
         bottom: 0;
     }
 
