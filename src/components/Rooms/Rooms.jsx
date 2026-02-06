@@ -78,7 +78,7 @@ const Rooms = () => {
                                     <span><Bed size={16} /> {room.beds}</span>
                                 </div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod.</p>
-                                <a href="#contact" className="btn-link">Book Now &rarr;</a>
+                                <a href={`https://wa.me/9808028085?text=Hello! I am interested in booking the ${room.name}.`} target="_blank" className="btn-link">Book Now &rarr;</a>
                             </div>
                         </motion.div>
                     ))}

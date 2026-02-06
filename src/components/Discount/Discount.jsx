@@ -32,7 +32,9 @@ const Discount = () => {
                             We have many special offers especially for you
                         </motion.p>
 
-                        <motion.button
+                        <motion.a
+                            href="https://wa.me/9808028085?text=Hello!%20I%20am%20interested%20in%20booking%20a%20room."
+                            target="_blank"
                             className="btn btn-discount"
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
@@ -41,8 +43,8 @@ const Discount = () => {
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
                         >
-                            Get Started
-                        </motion.button>
+                            Book now
+                        </motion.a>
                     </div>
                 </motion.div>
             </div>

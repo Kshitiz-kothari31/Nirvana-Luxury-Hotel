@@ -36,7 +36,7 @@ const Navbar = () => {
                     <li><a href="#rooms" onClick={() => setIsOpen(false)}>Rooms</a></li>
                     <li><a href="#services" onClick={() => setIsOpen(false)}>Services</a></li>
                     <li><a href="#gallery" onClick={() => setIsOpen(false)}>Gallery</a></li>
-                    <li><a href="#contact" className="btn-nav" onClick={() => setIsOpen(false)}>Book Now</a></li>
+                    <li><a href="https://wa.me/9808028085?text=Hello!%20I%20am%20interested%20in%20booking%20a%20room." target="_blank" className="btn-nav" onClick={() => setIsOpen(false)}>Book Now</a></li>
                 </ul>
             </div>
         </nav>
