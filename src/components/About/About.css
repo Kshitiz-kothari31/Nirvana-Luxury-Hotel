@@ -168,7 +168,7 @@
 @media (max-width: 992px) {
     .about-container {
         grid-template-columns: 1fr;
-        gap: 50px;
+        gap: 40px;
     }
 
     .about-image {

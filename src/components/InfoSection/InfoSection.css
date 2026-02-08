@@ -1,0 +1,109 @@
+.info-section {
+    padding: 50px 0;
+    background-color: var(--background-color);
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.info-left {
+    flex: 1;
+    min-width: 300px;
+}
+
+.info-subtitle {
+    display: inline-block;
+    font-family: var(--body-font);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--text-color);
+    margin-bottom: 20px;
+    padding: 8px 16px;
+    border: 1px solid #e0e0e0;
+    border-radius: 50px;
+}
+
+.info-title {
+    font-size: 3.5rem;
+    line-height: 1.2;
+    color: var(--secondary-color);
+    font-weight: 400;
+    /* Regular weight for serif font */
+}
+
+.info-title .highlight {
+    color: var(--primary-color);
+    font-style: italic;
+    /* Mimic the "The Right" style roughly */
+}
+
+.info-right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--body-font);
+    font-weight: 500;
+    color: var(--secondary-color);
+    font-size: 1rem;
+    transition: var(--transition-speed);
+}
+
+.contact-link:hover {
+    color: var(--primary-color);
+}
+
+.icon-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background-color: #fcebd1;
+    /* Light tint of primary/greenish */
+    border-radius: 50%;
+    color: var(--primary-dark);
+    transition: var(--transition-speed);
+}
+
+/* Specific button override if needed, otherwise inherits .btn */
+.info-btn {
+    background-color: var(--secondary-color);
+    color: white;
+    border-radius: 50px;
+    /* More rounded as per reference */
+    padding: 15px 35px;
+}
+
+.info-btn:hover {
+    background-color: var(--primary-color);
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .info-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .info-title {
+        font-size: 2.5rem;
+    }
+
+    .info-right {
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
