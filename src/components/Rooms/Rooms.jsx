@@ -7,7 +7,7 @@ const roomsData = [
         id: 1,
         name: 'Luxury Suite',
         price: '$350',
-        image: 'https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+        image: 'https://cdn.jsdelivr.net/gh/Kshitiz-kothari31/nirvana_images@main/images/gwg.jpeg',
         size: '50m²',
         guests: '2 Guests',
         beds: '1 King Bed'
@@ -16,7 +16,7 @@ const roomsData = [
         id: 2,
         name: 'Deluxe Room',
         price: '$250',
-        image: 'https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+        image: 'https://cdn.jsdelivr.net/gh/Kshitiz-kothari31/nirvana_images@main/images/sgs.jpeg',
         size: '35m²',
         guests: '2 Guests',
         beds: '1 Queen Bed'
@@ -25,7 +25,7 @@ const roomsData = [
         id: 3,
         name: 'Family Suite',
         price: '$450',
-        image: 'https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+        image: 'https://cdn.jsdelivr.net/gh/Kshitiz-kothari31/nirvana_images@main/images/wfw.jpeg',
         size: '65m²',
         guests: '4 Guests',
         beds: '2 Queen Beds'

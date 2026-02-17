@@ -8,7 +8,7 @@ const Hero = () => {
                 <div className="overlay"></div>
                 {/* Use a high-quality night/modern architecture image */}
                 <img
-                    src="https://i.pinimg.com/1200x/f3/40/cf/f340cff300c3cc33491f5b911455c164.jpg"
+                    src="https://cdn.jsdelivr.net/gh/Kshitiz-kothari31/nirvana_images@main/images/wfwfw.jpeg"
                     alt="Modern Luxury Hotel"
                     className="background-image"
                 />

@@ -4,12 +4,12 @@ import { X } from 'lucide-react';
 import './Gallery.css';
 
 const galleryImages = [
-    'https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1584132967334-10e028bd69f7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    'https://cdn.jsdelivr.net/gh/Kshitiz-kothari31/nirvana_images@main/images/www.jpeg',
+    'https://cdn.jsdelivr.net/gh/Kshitiz-kothari31/nirvana_images@main/images/wgw.jpeg',
+    'https://cdn.jsdelivr.net/gh/Kshitiz-kothari31/nirvana_images@main/images/wewfw.jpeg',
+    'https://cdn.jsdelivr.net/gh/Kshitiz-kothari31/nirvana_images@main/images/sgs.jpeg',
+    'https://cdn.jsdelivr.net/gh/Kshitiz-kothari31/nirvana_images@main/images/gwg.jpeg',
+    'https://cdn.jsdelivr.net/gh/Kshitiz-kothari31/nirvana_images@main/images/gggwg.jpeg'
 ];
 
 const Gallery = () => {

@@ -14,7 +14,7 @@ const About = () => {
                             viewport={{ once: true }}
                             transition={{ duration: 0.6 }}
                         >
-                            <img src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Mountain Landscape" />
+                            <img src="https://cdn.jsdelivr.net/gh/Kshitiz-kothari31/nirvana_images@main/images/gggwg.jpeg" alt="Mountain Landscape" />
                         </motion.div>
                         <motion.div
                             className="collage-item item-2"
@@ -23,7 +23,7 @@ const About = () => {
                             viewport={{ once: true }}
                             transition={{ duration: 0.6, delay: 0.2 }}
                         >
-                            <img src="https://images.unsplash.com/photo-1502791451862-7bd8c1df43a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Tropical Beach" />
+                            <img src="https://cdn.jsdelivr.net/gh/Kshitiz-kothari31/nirvana_images@main/images/wgw.jpeg" alt="Tropical Beach" />
                         </motion.div>
                         <motion.div
                             className="collage-item item-3"
@@ -32,7 +32,7 @@ const About = () => {
                             viewport={{ once: true }}
                             transition={{ duration: 0.6, delay: 0.4 }}
                         >
-                            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Ocean View" />
+                            <img src="https://cdn.jsdelivr.net/gh/Kshitiz-kothari31/nirvana_images@main/images/wewfw.jpeg" alt="Ocean View" />
                         </motion.div>
                     </div>
                 </div>
