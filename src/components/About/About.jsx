@@ -38,15 +38,15 @@ const About = () => {
                 </div>
 
                 <div className="about-text">
-                    {/* <motion.span
+                    <motion.span
                         className="section-subtitle"
                         initial={{ opacity: 0, x: 20 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.5 }}
                     >
-                        About —
-                    </motion.span> */}
+                        About us —
+                    </motion.span>
 
                     <motion.h2
                         className="section-title"
@@ -76,8 +76,8 @@ const About = () => {
                             viewport={{ once: true }}
                             transition={{ delay: 0.6 }}
                         >
-                            <h3>2000+</h3>
-                            <p>Our Explorers</p>
+                            <h3>⭐⭐⭐⭐⭐</h3>
+                            <p>Our Rating</p>
                         </motion.div>
                         <motion.div
                             className="stat-card"

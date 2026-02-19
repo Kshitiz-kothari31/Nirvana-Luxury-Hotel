@@ -24,7 +24,7 @@ const InfoSection = () => {
                         transition={{ delay: 0.2, duration: 0.5 }}
                     >
                         Experience <span className="highlight">The Best</span><br />
-                        Luxury Stay
+                        Comfortable Stay
                     </motion.h2>
                 </div>
 
@@ -42,7 +42,8 @@ const InfoSection = () => {
                             <ArrowUpRight size={18} />
                         </span>
                     </motion.a>
-                    <motion.button
+                    <motion.a
+                        href="#rooms"
                         className="btn info-btn"
                         initial={{ opacity: 0, x: 20 }}
                         whileInView={{ opacity: 1, x: 0 }}
@@ -50,7 +51,7 @@ const InfoSection = () => {
                         transition={{ delay: 0.4, duration: 0.5 }}
                     >
                         View Rooms
-                    </motion.button>
+                    </motion.a>
                 </div>
             </div>
         </section>

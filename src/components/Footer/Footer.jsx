@@ -2,6 +2,17 @@ import { Facebook, Instagram, Twitter } from 'lucide-react';
 import './Footer.css';
 
 const Footer = () => {
+    const handleEmailClick = () => {
+        const recipient = 'kshitizkothari69@gmail.com';
+        const subject = encodeURIComponent('Inquiry from Nirvana Hotel Website');
+        const body = encodeURIComponent('Hello,\n\nI would like to get more information regarding your hotel services.');
+
+        // Gmail compose link
+        const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${recipient}&su=${subject}&body=${body}`;
+
+        window.open(gmailUrl, '_blank');
+    };
+
     return (
         <footer className="footer">
             <div className="container footer-container">
@@ -44,11 +55,10 @@ const Footer = () => {
 
                 <div className="footer-col">
                     <h4>Mail us for more info!</h4>
-                    <p>Subscribe to our newsletter for latest updates and offers.</p>
-                    <form className="newsletter-form" onSubmit={(e) => e.preventDefault()}>
-                        <input type="email" placeholder="Email Address" />
-                        <button type="submit">Mail</button>
-                    </form>
+                    <p>Click the button below to send us an email directly.</p>
+                    <div className="newsletter-form">
+                        <button onClick={handleEmailClick}>Mail us</button>
+                    </div>
                 </div>
             </div>
 

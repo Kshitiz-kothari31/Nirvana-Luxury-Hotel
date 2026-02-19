@@ -1,7 +1,19 @@
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import './Hero.css';
 
 const Hero = () => {
+    const [searchTerm, setSearchTerm] = useState('');
+
+    const handleSearch = () => {
+        const term = searchTerm.toLowerCase().trim();
+        if (term === 'rooms' || term === 'ac rooms' || term === 'family rooms') {
+            const roomsSection = document.getElementById('rooms');
+            if (roomsSection) {
+                roomsSection.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    };
     return (
         <section className="hero" id="home">
             <div className="hero-background">
@@ -40,8 +52,14 @@ const Hero = () => {
                         transition={{ delay: 0.4, duration: 0.8 }}
                     >
                         <div className="input-group-centered">
-                            <input type="text" placeholder="Search rooms" />
-                            <button className="btn-search-centered">
+                            <input
+                                type="text"
+                                placeholder="Ac Rooms"
+                                value={searchTerm}
+                                onChange={(e) => setSearchTerm(e.target.value)}
+                                onKeyPress={(e) => e.key === 'Enter' && handleSearch()}
+                            />
+                            <button className="btn-search-centered" onClick={handleSearch}>
                                 Search
                             </button>
                         </div>

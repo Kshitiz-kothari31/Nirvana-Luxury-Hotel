@@ -5,8 +5,8 @@ import './Rooms.css';
 const roomsData = [
     {
         id: 1,
-        name: 'Luxury Suite',
-        price: '$350',
+        name: 'Normal Rooms',
+        price: '₹350',
         image: 'https://cdn.jsdelivr.net/gh/Kshitiz-kothari31/nirvana_images@main/images/gwg.jpeg',
         size: '50m²',
         guests: '2 Guests',
@@ -14,8 +14,8 @@ const roomsData = [
     },
     {
         id: 2,
-        name: 'Deluxe Room',
-        price: '$250',
+        name: 'Ac Rooms',
+        price: '₹250',
         image: 'https://cdn.jsdelivr.net/gh/Kshitiz-kothari31/nirvana_images@main/images/sgs.jpeg',
         size: '35m²',
         guests: '2 Guests',
@@ -23,8 +23,8 @@ const roomsData = [
     },
     {
         id: 3,
-        name: 'Family Suite',
-        price: '$450',
+        name: 'Family Rooms',
+        price: '₹450',
         image: 'https://cdn.jsdelivr.net/gh/Kshitiz-kothari31/nirvana_images@main/images/wfw.jpeg',
         size: '65m²',
         guests: '4 Guests',
@@ -37,14 +37,14 @@ const Rooms = () => {
         <section className="section rooms" id="rooms">
             <div className="container">
                 <div className="section-header text-center">
-                    {/* <motion.span
+                    <motion.span
                         className="section-subtitle"
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                     >
                         OUR ACCOMMODATIONS
-                    </motion.span> */}
+                    </motion.span>
                     <motion.h2
                         className="section-title"
                         initial={{ opacity: 0, y: 20 }}
@@ -52,7 +52,7 @@ const Rooms = () => {
                         viewport={{ once: true }}
                         transition={{ delay: 0.2 }}
                     >
-                        Luxurious Rooms
+                        Your Rooms
                     </motion.h2>
                 </div>
 
