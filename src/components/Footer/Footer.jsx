@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="container footer-container">
                 <div className="footer-col">
                     <div className="logo footer-logo">
-                        <a href="#">Nirvana <span>Hotel</span></a>
+                        <a href="#">Gopala guest <span> house</span></a>
                     </div>
                     <p>
                         Experience the art of hospitality. We are dedicated to providing

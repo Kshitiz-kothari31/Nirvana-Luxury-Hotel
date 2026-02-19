@@ -23,7 +23,7 @@ const Navbar = () => {
         <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
             <div className="container navbar-container">
                 <div className="logo">
-                    <a href="#">Nirvana<span> Hotel</span></a>
+                    <a href="#">Gopala guest <span> house</span></a>
                 </div>
 
                 <div className="menu-icon" onClick={() => setIsOpen(!isOpen)}>
