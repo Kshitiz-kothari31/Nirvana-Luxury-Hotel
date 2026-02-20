@@ -55,7 +55,7 @@ const About = () => {
                         viewport={{ once: true }}
                         transition={{ delay: 0.2, duration: 0.5 }}
                     >
-                        We Recommend<br />Beautiful Destinations<br />Every Month
+                        Your Spiritual <br /> Home in the <br />Heart of Rishikesh
                     </motion.h2>
 
                     <motion.p
@@ -64,8 +64,7 @@ const About = () => {
                         viewport={{ once: true }}
                         transition={{ delay: 0.4, duration: 0.5 }}
                     >
-                        Let's chose your dream destinations here we provide many destinations and we offer the
-                        best destinations every week.
+                        Experience the serenity of the World Capital of Yoga. Our guest house offers a calm sanctuary where traditional Indian hospitality meets modern comfort. Whether you're here to deepen your practice at our Yoga Hall or simply to find peace by the Ganges, we provide the perfect space for your soul to rest.
                     </motion.p>
 
                     <div className="stats-container">
@@ -86,8 +85,8 @@ const About = () => {
                             viewport={{ once: true }}
                             transition={{ delay: 0.7 }}
                         >
-                            <h3>100+</h3>
-                            <p>Destinations</p>
+                            <h3>Nutritious</h3>
+                            <p>dining area</p>
                         </motion.div>
                         <motion.div
                             className="stat-card"
@@ -96,8 +95,8 @@ const About = () => {
                             viewport={{ once: true }}
                             transition={{ delay: 0.8 }}
                         >
-                            <h3>20+</h3>
-                            <p>Years Experience</p>
+                            <h3>Meditation</h3>
+                            <p>& Yoga Hall</p>
                         </motion.div>
                     </div>
                 </div>
