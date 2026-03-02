@@ -1,14 +1,14 @@
 import { motion } from 'framer-motion';
-import { Wifi, Utensils, Dumbbell, Waves, Car, Sparkles } from 'lucide-react';
+import { Wifi, Utensils, Waves, Sparkles, Coffee, Car } from 'lucide-react';
 import './Services.css';
 
 const servicesData = [
-    { icon: <Wifi size={40} />, title: 'Free Wifi', desc: 'High-speed internet access throughout the hotel.' },
-    { icon: <Utensils size={40} />, title: 'Restaurant', desc: 'Gourmet dining experience with top chefs.' },
-    { icon: <Waves size={40} />, title: 'Swimming Pool', desc: 'Relax in our temperature-controlled pool.' },
-    { icon: <Dumbbell size={40} />, title: 'Fitness Center', desc: 'State-of-the-art gym equipment for you.' },
-    { icon: <Sparkles size={40} />, title: 'Spa & Wellness', desc: 'Rejuvenate your body and mind at our spa.' },
-    { icon: <Car size={40} />, title: 'Free Parking', desc: 'Secure and complimentary parking space.' }
+    { icon: <Wifi size={40} />, title: 'Free Wifi', desc: 'High-speed internet access throughout the guest house.' },
+    { icon: <Utensils size={40} />, title: 'Home-cooked Meals', desc: 'Delicious, fresh, and hygienic meals prepared on request.' },
+    { icon: <Waves size={40} />, title: 'Hot & Cold Water', desc: '24/7 access to running hot and cold water in all bathrooms.' },
+    { icon: <Sparkles size={40} />, title: 'Daily Housekeeping', desc: 'Clean, sanitized, and well-maintained rooms every day.' },
+    { icon: <Coffee size={40} />, title: 'Morning Tea', desc: 'Start your day right with a complimentary cup of tea or coffee.' },
+    { icon: <Car size={40} />, title: 'Free Parking', desc: 'Secure and complimentary parking space for our guests.' }
 ];
 
 const Services = () => {

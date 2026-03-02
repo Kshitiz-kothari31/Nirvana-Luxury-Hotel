@@ -10,7 +10,8 @@ const roomsData = [
         image: 'https://cdn.jsdelivr.net/gh/Kshitiz-kothari31/nirvana_images@main/images/gwg.jpeg',
         size: '50m²',
         guests: '2 Guests',
-        beds: '1 King Bed'
+        beds: '1 King Bed',
+        description: 'A comfortable, budget-friendly stay featuring a spacious King-sized bed and essential amenities for a relaxing night.'
     },
     {
         id: 2,
@@ -19,7 +20,8 @@ const roomsData = [
         image: 'https://cdn.jsdelivr.net/gh/Kshitiz-kothari31/nirvana_images@main/images/sgs.jpeg',
         size: '35m²',
         guests: '2 Guests',
-        beds: '1 Queen Bed'
+        beds: '1 Queen Bed',
+        description: 'Enjoy a climate-controlled environment with modern furnishings, perfect for staying cool and refreshed during your trip.'
     },
     {
         id: 3,
@@ -28,7 +30,8 @@ const roomsData = [
         image: 'https://cdn.jsdelivr.net/gh/Kshitiz-kothari31/nirvana_images@main/images/wfw.jpeg',
         size: '65m²',
         guests: '4 Guests',
-        beds: '2 Queen Beds'
+        beds: '2 Queen Beds',
+        description: 'Designed for group comfort, offering extra space and two Queen beds to ensure everyone has a restful stay together.'
     }
 ];
 
@@ -77,7 +80,7 @@ const Rooms = () => {
                                     <span><Users size={16} /> {room.guests}</span>
                                     <span><Bed size={16} /> {room.beds}</span>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod.</p>
+                                <p>{room.description}</p>
                                 <a href={`https://wa.me/919808028085?text=Hello! I am interested in booking the ${room.name}.`} target="_blank" className="btn-link">Book Now &rarr;</a>
                             </div>
                         </motion.div>
